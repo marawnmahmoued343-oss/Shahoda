@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>لشهودة ❤️</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100vh;font-family:Arial,Tahoma,sans-serif;background:linear-gradient(145deg,#fff4f7,#fbe1ea);color:#4b2733}
+.wrap{max-width:700px;margin:auto;padding:35px 18px 55px;text-align:center}h1{font-size:34px;margin:10px 0 8px}.intro{font-size:17px;line-height:1.8;color:#704653;margin-bottom:28px}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.envelope{border:0;background:transparent;cursor:pointer;padding:0;transition:.25s}.envelope:hover{transform:translateY(-6px)}
+.env{height:135px;position:relative;background:#fff;border-radius:13px;overflow:hidden;border:1px solid #efcbd6;box-shadow:0 10px 25px #7d3b5118}
+.env:before{content:"";position:absolute;inset:0;background:#f7d6df;clip-path:polygon(0 0,50% 55%,100% 0,100% 18%,50% 73%,0 18%)}
+.env:after{content:"";position:absolute;left:0;right:0;bottom:0;height:72%;background:#f4cbd6;clip-path:polygon(0 100%,0 25%,50% 72%,100% 25%,100% 100%)}
+.seal{position:absolute;z-index:3;left:50%;top:50%;transform:translate(-50%,-50%);width:50px;height:50px;border-radius:50%;background:#b94869;color:#fff;display:flex;align-items:center;justify-content:center;font-size:24px}
+.label{font-size:17px;font-weight:bold;margin-top:11px;line-height:1.5}.hint{font-size:13px;color:#9a6877;margin-top:3px}
+.modal{position:fixed;inset:0;background:#37142099;display:none;align-items:center;justify-content:center;padding:18px;z-index:10}.modal.show{display:flex}
+.card{background:#fffafc;max-width:620px;width:100%;max-height:88vh;overflow:auto;border-radius:24px;padding:28px 23px 22px;box-shadow:0 20px 60px #280a143d;animation:pop .25s ease}
+@keyframes pop{from{transform:scale(.92);opacity:0}to{transform:scale(1);opacity:1}}.card h2{margin:0 0 20px;color:#a13d5d;font-size:25px}
+.message{font-size:18px;line-height:2.05;white-space:pre-line;text-align:right}.close{margin-top:20px;border:0;background:#b94869;color:#fff;padding:11px 25px;border-radius:999px;font-size:16px;cursor:pointer}
+.footer{margin-top:35px;font-size:14px;color:#9a6877}@media(max-width:480px){h1{font-size:29px}.grid{gap:12px}.env{height:115px}.label{font-size:15px}.message{font-size:16px;line-height:2}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>لشهودة ❤️</h1>
+<p class="intro">اختاري الظرف اللي يناسب حالتك دلوقتي…<br>كل ظرف جواه كلام مخصوص ليكي 💌</p>
+<div class="grid">
+<button class="envelope" onclick="openLetter(0)"><div class="env"><div class="seal">💗</div></div><div class="label">لما تكوني مبسوطة</div><div class="hint">افتحيني 💌</div></button>
+<button class="envelope" onclick="openLetter(1)"><div class="env"><div class="seal">🥺</div></div><div class="label">لما تكوني زعلانة</div><div class="hint">افتحيني 💌</div></button>
+<button class="envelope" onclick="openLetter(2)"><div class="env"><div class="seal">🌙</div></div><div class="label">افتحيني قبل ما تنامي</div><div class="hint">كل يوم ❤️</div></button>
+<button class="envelope" onclick="openLetter(3)"><div class="env"><div class="seal">❤️</div></div><div class="label">لما تفتكريني</div><div class="hint">افتحيني 💌</div></button>
+</div>
+<div class="footer">لشهودة ❤️</div></div>
+
+<div class="modal" id="modal" onclick="outside(event)"><div class="card"><h2 id="title"></h2><div class="message" id="message"></div><button class="close" onclick="closeLetter()">اقفلي الظرف ❤️</button></div></div>
+<script>
+const letters=[
+{title:"💗 لما تكوني مبسوطة",message:`شهد، عايزك تعرفي إن انبساطك من انبساطي، وإن ضحكتك بالنسبالي مش مجرد ضحكة… ضحكتك عندي بالدنيا كلها، ومن أجمل الحاجات اللي ممكن أشوفها في حياتي. يمكن إنتِ متعرفيش قد إيه مجرد إني أشوفك مبسوطة بيطمنّي ويريّحني نفسيًا، وكأن كل حاجة في الدنيا بقت كويسة لمجرد إنك كويسة.
+
+أنا بموت فيكي أكتر من أي حاجة في الدنيا، وغلاوتك عندي مش حاجة تتوصف بكلمتين… إنتِ حتة مني، وراحتك بتفرق معايا، وفرحتك بتفرحني بجد.
+
+أنا بحبك عشان بحبك، من غير أسباب محتاجة تتعد أو تتشرح. بحب وجودك، صوتك، ضحكتك، طريقتك، وحتى التفاصيل الصغيرة اللي يمكن إنتِ نفسك مش واخدة بالك منها.
+
+ونفسي دايمًا أشوفك أسعد واحدة في الدنيا، حتى لو أنا مش السبب في سعادتك. المهم عندي إنك تكوني سعيدة.
+
+عايزك كل ما تكوني مبسوطة تتخيلي إني واقف بعيد وببصلك، ومبسوط لمجرد إني شايفك بتضحكي، ومستعد أعمل أي حاجة أقدر عليها عشان أفضل أشوف الضحكة دي على وشك.
+
+ولو في يوم الدنيا كانت تقيلة عليكي، افتكري إن فيه شخص كل اللي يهمه إنك تكوني بخير، وإن مجرد ابتسامتك ممكن تغيّر يومه كله.
+
+فاضحكي… اضحكي كتير، ومن قلبك، ومتخليش حاجة تاخد منك ضحكتك.
+لأن في حد هنا بيحب ضحكتك أكتر مما تتخيلي. ❤️
+
+وأهم حاجة…
+
+خليكي مبسوطة يا شهد، عشان لما إنتِ بتكوني مبسوطة، أنا كمان ببقى مبسوط.
+ولأنك ببساطة… من أجمل الحاجات اللي حصلتلي في حياتي. ❤️`},
+{title:"🥺 لما تكوني زعلانة",message:`حقك عليا من أي حاجة مزعلاكي، حتى لو أنا نفسي السبب… والله تهون الدنيا كلها قصاد دمعة واحدة منك، ومفيش حاجة في الدنيا تستاهل أشوفك مكسورة أو زعلانة.
+
+أوعي تزعلي يا حبيبتي وإنتِ شايلة كل حاجة لوحدك. طول ما أنا معاكي، شاركيني واحكيلي، ارمي عليا كل اللي جواكي، حتى لو شايفة إن الموضوع صغير أو تافه أو مش مستاهل يتحكي. بالنسبالي مفيش حاجة تخصك صغيرة.
+
+أنا هنا عشان أكون سندك، مش بس في الأيام الحلوة، لكن خصوصًا في الأيام اللي الدنيا بتبقى تقيلة عليكي فيها. أنا موجودلك، وهسمعك لآخر كلمة، من غير ما أقاطعك، ومن غير ما أحكم عليكي، ومن غير ما أقلل من إحساسك.
+
+احكيلي كل حاجة… حتى التفاصيل اللي ممكن تتخيلي إنها مينفعش تتحكي، أو اللي مش عارفة تعبري عنها. احكيها زي ما هي، وأنا هحاول أفهمك، وأفهم قصدك، وأفهم اللي ورا كلامك قبل ما أحكم على كلامك.
+
+وعارفة إيه؟
+أنا عارف إن ممكن الكلام ده كله يبانلك مجرد كلام حلو، وإنك ممكن تقولي: "كل الناس بتقول كده."
+وعشان كده أنا مش عايزك تصدقي كلامي لمجرد إني قلته.
+
+أنا مستني اليوم اللي أقدر أثبتلك فيه كل كلمة بقولها.
+أثبتلك إني أستحق ثقتك، وإن وجودي في حياتك مش مجرد كلام وقت ما تكوني زعلانة، لكن وجود حقيقي وقت ما تحتاجيني.
+
+ولو الدنيا كلها وقفت قدامك، أنا مستعد أقف جنبك.
+ولو احتجتي حد يسمعك، هسمعك.
+ولو احتجتي حضن، هكون أول واحد نفسك تلاقيه.
+ولو مش عايزة تتكلمي أصلًا، هفضل جنبك لحد ما تكوني مستعدة.
+
+أنا مش عايز منك غير إنك متشيليش لوحدك.
+سيبيلي جزء من اللي تقيل عليكي… وأنا أشيله معاكي.
+
+يا روح قلبي، أنا بحبك، ومستنيكي تيجي تحكيلي كل اللي مزعلك…
+ومهما كان اللي جواكي، تعالى بيه زي ما هو.
+أنا مش هخاف من زعلك، ولا من دموعك، ولا من أسوأ أيامك.
+أنا عايزك إنتِ… بكل حالاتك. ❤️`},
+{title:"🌙 افتحيني قبل ما تنامي",message:`دي بقى هتكون يوميًا، تفتحيها عشان تشوفيني قبل ما تنامي. ❤️
+
+تصبحي على خير يا أجمل وأحلى وأطيب وألذ شهودة في الدنيا كلها.
+ومبتمنّاش من ربنا غير إنك تكوني ليا في أقرب وقت.
+
+بحبك ❤️
+ومستنيكي لما تصحي، وهتلاقيني دايمًا مستنيكي.`},
+{title:"❤️ لما تفتكريني",message:`خلينا نستحمل ظروف الحياة واللي حوالينا مهما حصل، إحنا مش في خطوة سهلة، بس عشان نوصل لبيت تحت سقف واحد، وأنا وإنتِ بنشرب شاي بالنعناع في البلكونة وبنسمع أغاني، وأقعد أفكرك بأيامنا دي.
+
+مش هتكوني غير ليا يا روح قلبي. ❤️❤️❤️`}
+];
+function openLetter(i){document.getElementById("title").textContent=letters[i].title;document.getElementById("message").textContent=letters[i].message;document.getElementById("modal").classList.add("show")}
+function closeLetter(){document.getElementById("modal").classList.remove("show")}
+function outside(e){if(e.target.id==="modal")closeLetter()}
+</script>
+</body>
+</html>
